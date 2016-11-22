@@ -1,0 +1,18 @@
+development:
+  database:
+    migration_repo: "db/migrations"
+    uri: "postgres://sam@localhost/link"
+  redis:
+    host: localhost
+test:
+  database:
+    migration_repo: "db/migrations"
+    uri: "sqlite://./test/link.db"
+  redis:
+    host: localhost
+production:
+  database:
+    migration_repo: "db/migrations"
+    uri: "postgres://sam@localhost/link"
+  redis:
+    host: localhost
